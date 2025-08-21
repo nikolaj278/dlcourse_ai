@@ -3,6 +3,15 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Ignore large or generated files
+*.h5
+*.zip
+*.csv
+*.pt
+*.mat
+.ipynb_checkpoints/
+
+
 # C extensions
 *.so
 
